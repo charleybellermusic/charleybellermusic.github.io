@@ -132,6 +132,23 @@ body {
     transform: scale(1.02);
 }
 
+/* Individual image positioning */
+.gallery-img[src*="guitar_3"] {
+    object-position: 50% 15%;  /* Moves center up a bit */
+}
+.gallery-img[src*="banjo_1"] {
+    object-position: 50% 10%;  /* Moves center up a bit */
+}
+.gallery-img[src*="flute_1"] {
+    object-position: 50% 30%;  /* Moves center up a bit */
+}
+.gallery-img[src*="culra_4"] {
+    object-position: 50% 10%;  /* Moves center up a bit */
+}
+.gallery-img[src*="flute_2"] {
+    object-position: 50% 10%;  /* Moves center up a bit */
+}
+
 /* Responsive gallery */
 @media (max-width: 600px) {
     .photo-gallery {
