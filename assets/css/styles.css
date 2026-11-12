@@ -235,6 +235,14 @@ body {
     margin-bottom: 4px;
 }
 
+.group-link {
+    color: #a26f12;
+}
+
+.group-link:hover {
+    color: #666;
+}
+
 .show-date, .location {
     line-height: 1.2;
     margin: 0;
@@ -253,7 +261,7 @@ body {
 }
 
 .ticket-link:hover {
-    background-color: #025d45;
+    background-color: #000000;
 }
 
 .past-shows-section {
